@@ -10,22 +10,22 @@
     <PackageArchitecture>arm</PackageArchitecture>
     <PackageIdentityName>85211ed9-7196-4217-b4de-46c0b50c9066</PackageIdentityName>
     <PackageIdentityPublisher>CN=sbaydach</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\mroshdi\Desktop\Askey_Adafruit\obj\ARM\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\mroshdi\Desktop\Askey_Adafruit_V1.1\Askey_Adafruit_V1.1\Askey_Adafruit\obj\ARM\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\mroshdi\Desktop\Askey_Adafruit\bin\ARM\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\mroshdi\Desktop\Askey_Adafruit_V1.1\Askey_Adafruit_V1.1\Askey_Adafruit\bin\ARM\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\mroshdi\Desktop\Askey_Adafruit\bin\ARM\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\mroshdi\Desktop\Askey_Adafruit_V1.1\Askey_Adafruit_V1.1\Askey_Adafruit\bin\ARM\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\mroshdi\Desktop\Askey_Adafruit\bin\ARM\Debug\BluetoothData.exe">
+    <AppxPackagedFile Include="C:\Users\mroshdi\Desktop\Askey_Adafruit_V1.1\Askey_Adafruit_V1.1\Askey_Adafruit\bin\ARM\Debug\BluetoothData.exe">
       <PackagePath>entrypoint\BluetoothData.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\mroshdi\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
@@ -367,62 +367,65 @@
     <AppxPackagedFile Include="C:\Users\mroshdi\.nuget\packages\system.xml.xmlserializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mroshdi\Desktop\Askey_Adafruit\Assets\board.jpg">
+    <AppxPackagedFile Include="C:\Users\mroshdi\Desktop\Askey_Adafruit_V1.1\Askey_Adafruit_V1.1\Askey_Adafruit\Assets\board.jpg">
       <PackagePath>Assets\board.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mroshdi\Desktop\Askey_Adafruit\Assets\stlogo.png">
+    <AppxPackagedFile Include="C:\Users\mroshdi\Desktop\Askey_Adafruit_V1.1\Askey_Adafruit_V1.1\Askey_Adafruit\Assets\stlogo.png">
       <PackagePath>Assets\stlogo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mroshdi\Desktop\Askey_Adafruit\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\mroshdi\Desktop\Askey_Adafruit_V1.1\Askey_Adafruit_V1.1\Askey_Adafruit\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mroshdi\Desktop\Askey_Adafruit\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\mroshdi\Desktop\Askey_Adafruit_V1.1\Askey_Adafruit_V1.1\Askey_Adafruit\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mroshdi\Desktop\Askey_Adafruit\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\mroshdi\Desktop\Askey_Adafruit_V1.1\Askey_Adafruit_V1.1\Askey_Adafruit\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mroshdi\Desktop\Askey_Adafruit\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\mroshdi\Desktop\Askey_Adafruit_V1.1\Askey_Adafruit_V1.1\Askey_Adafruit\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mroshdi\Desktop\Askey_Adafruit\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\mroshdi\Desktop\Askey_Adafruit_V1.1\Askey_Adafruit_V1.1\Askey_Adafruit\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mroshdi\Desktop\Askey_Adafruit\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\mroshdi\Desktop\Askey_Adafruit_V1.1\Askey_Adafruit_V1.1\Askey_Adafruit\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mroshdi\Desktop\Askey_Adafruit\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\mroshdi\Desktop\Askey_Adafruit_V1.1\Askey_Adafruit_V1.1\Askey_Adafruit\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mroshdi\Desktop\Askey_Adafruit\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\mroshdi\Desktop\Askey_Adafruit_V1.1\Askey_Adafruit_V1.1\Askey_Adafruit\Code\BioSensor.csproj">
+      <PackagePath>Code\BioSensor.csproj</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\mroshdi\Desktop\Askey_Adafruit_V1.1\Askey_Adafruit_V1.1\Askey_Adafruit\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mroshdi\Desktop\Askey_Adafruit\bin\ARM\Debug\BluetoothData.xr.xml">
+    <AppxPackagedFile Include="C:\Users\mroshdi\Desktop\Askey_Adafruit_V1.1\Askey_Adafruit_V1.1\Askey_Adafruit\bin\ARM\Debug\BluetoothData.xr.xml">
       <PackagePath>BluetoothData.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mroshdi\Desktop\Askey_Adafruit\bin\ARM\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\mroshdi\Desktop\Askey_Adafruit_V1.1\Askey_Adafruit_V1.1\Askey_Adafruit\bin\ARM\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mroshdi\Desktop\Askey_Adafruit\bin\ARM\Debug\DevicePage.xbf">
+    <AppxPackagedFile Include="C:\Users\mroshdi\Desktop\Askey_Adafruit_V1.1\Askey_Adafruit_V1.1\Askey_Adafruit\bin\ARM\Debug\DevicePage.xbf">
       <PackagePath>DevicePage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mroshdi\Desktop\Askey_Adafruit\bin\ARM\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\mroshdi\Desktop\Askey_Adafruit_V1.1\Askey_Adafruit_V1.1\Askey_Adafruit\bin\ARM\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.15063.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mroshdi\Desktop\Askey_Adafruit\bin\ARM\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\mroshdi\Desktop\Askey_Adafruit_V1.1\Askey_Adafruit_V1.1\Askey_Adafruit\bin\ARM\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\mroshdi\Desktop\Askey_Adafruit\bin\ARM\Debug\Core\BluetoothData.exe">
+    <AppxPackagedFile Include="C:\Users\mroshdi\Desktop\Askey_Adafruit_V1.1\Askey_Adafruit_V1.1\Askey_Adafruit\bin\ARM\Debug\Core\BluetoothData.exe">
       <PackagePath>BluetoothData.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

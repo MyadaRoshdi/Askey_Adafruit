@@ -32,6 +32,7 @@ namespace BluetoothData
         public MainPage()
         {
             this.InitializeComponent();
+           
         }
 
         DeviceWatcher deviceWatcher;

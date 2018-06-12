@@ -37,11 +37,11 @@
     <build:Item Name="VisualStudio" Version="15.0" />
     <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Professional 2017" />
     <build:Item Name="OperatingSystem" Version="10.0.16299.15 (WinBuild.160101.0800)" />
-    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="15.0.27703.1" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="15.0.27703.2026" />
     <build:Item Name="ProjectGUID" Value="{3FE4AF35-1BA3-4780-8376-EAB940DD28B9}" />
     <build:Item Name="OptimizingToolset" Value="None" />
     <build:Item Name="TargetRuntime" Value="Managed" />
-    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="15.0.27703.1" />
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="15.0.27703.2026" />
     <build:Item Name="MakePri.exe" Version="10.0.15063.674 (WinBuild.160101.0800)" />
   </build:Metadata>
 </Package>

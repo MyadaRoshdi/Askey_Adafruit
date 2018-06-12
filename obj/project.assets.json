@@ -23888,11 +23888,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mroshdi\\Desktop\\Askey_Adafruit\\Askey_Adafruit.csproj",
+      "projectUniqueName": "C:\\Users\\mroshdi\\Desktop\\Askey_Adafruit_V1.1\\Askey_Adafruit_V1.1\\Askey_Adafruit\\Askey_Adafruit.csproj",
       "projectName": "Askey_Adafruit",
-      "projectPath": "C:\\Users\\mroshdi\\Desktop\\Askey_Adafruit\\Askey_Adafruit.csproj",
+      "projectPath": "C:\\Users\\mroshdi\\Desktop\\Askey_Adafruit_V1.1\\Askey_Adafruit_V1.1\\Askey_Adafruit\\Askey_Adafruit.csproj",
       "packagesPath": "C:\\Users\\mroshdi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mroshdi\\Desktop\\Askey_Adafruit\\obj\\",
+      "outputPath": "C:\\Users\\mroshdi\\Desktop\\Askey_Adafruit_V1.1\\Askey_Adafruit_V1.1\\Askey_Adafruit\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

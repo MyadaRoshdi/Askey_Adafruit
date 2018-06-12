@@ -12,4 +12,5 @@ App.xbf
 BluetoothData.xr.xml
 DevicePage.xbf
 MainPage.xbf
+Code\BioSensor.csproj
 Properties\Default.rd.xml

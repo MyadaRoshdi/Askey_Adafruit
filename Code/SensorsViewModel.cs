@@ -9,6 +9,8 @@ using Windows.Devices.Bluetooth.GenericAttributeProfile;
 using Windows.Devices.Enumeration;
 using Windows.UI.Xaml;
 using Windows.Storage.Streams;
+using BioSensor;
+using System.Diagnostics;
 
 namespace BluetoothData.Code
 {
@@ -17,6 +19,7 @@ namespace BluetoothData.Code
         DispatcherTimer timer = new DispatcherTimer();
         DeviceInformation device;
         BluetoothLEDevice leDevice;
+        string hrmHeartRate = "";
 
         public SensorsViewModel(DeviceInformation info)
         {
@@ -39,6 +42,7 @@ namespace BluetoothData.Code
         {
             timer.Stop();
         }
+        
 
         public async void UpdateAllData()
         {
@@ -66,7 +70,23 @@ namespace BluetoothData.Code
                                     //string message = "DATA:SET #22046524f4d205741544348\n";
                                     //writer.WriteString(message);
                                     //await character.WriteValueAsync(writer.DetachBuffer());
-                                    writer.WriteString("TRIGGER\n");
+
+                                    // Reading and displaying heartrate from BioSensor
+                                            RateSensor bs = new RateSensor();
+                                            bs.RateSensorInit();
+                                           // await Task.Delay(1000);
+                                            bs.RateMonitorON();
+                                            hrmHeartRate = bs.GetHeartRate();
+                                            Debug.WriteLine($"Current heartrate: {hrmHeartRate}");
+                                            // hrmHeartRate = bs.I2C_ReadRegData(HrmSensor, AS7000_REG_HRM_HEARTRATE);
+                                            //await Task.Delay(1);
+
+
+
+                                            //writing TRIGGER to the AdafruitBT
+                                            writer.WriteString("TRIGGER\n");
+                                            //writing current HeartRate to the Adafruit bluetooth 
+                                            //writer.WriteString(hrmHeartRate);
                                     await character.WriteValueAsync(writer.DetachBuffer());
                                 }
                                 break;
